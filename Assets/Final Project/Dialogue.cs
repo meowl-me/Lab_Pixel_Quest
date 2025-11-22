@@ -15,6 +15,9 @@ public class Dialogue : MonoBehaviour
     private TextMeshProUGUI _talkText;
     public Image TalkingPerson;
     private int _talkIndex = 0;
+    public Image background;
+    public Sprite Subway;
+    public Sprite TrainInt; 
 
     private void Start()
     {
@@ -29,6 +32,11 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update() 
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        { 
+
+        }
+
         if (isSpeaking && Input.GetKeyDown(KeyCode.E))
         {
             if (dialogue.Count - 1 == _talkIndex)
