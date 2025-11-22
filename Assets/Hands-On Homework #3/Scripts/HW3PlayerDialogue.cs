@@ -17,7 +17,7 @@ public class HW3PlayerDialogue : MonoBehaviour
         _talkText = GameObject.Find(HW3Structs.GameObjects.talkText).GetComponent<TextMeshProUGUI>();
 
         _talkPanel = GameObject.Find(HW3Structs.GameObjects.talkPanel);
-        _talkPanel.SetActive(false);
+        //_talkPanel.SetActive(false);
     }
 
     // Update is called once per frame
