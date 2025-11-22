@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HW3PlayerDialogue : MonoBehaviour
+public class Dialogue : MonoBehaviour
 {
     public List<string> dialogue = new List<string>();
 
