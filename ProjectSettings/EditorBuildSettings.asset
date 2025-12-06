@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuLevel.unity
     guid: 2fa55462fc719a848b33dd6097f67562
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Geo_Quest_LevelOne.unity
+    path: Assets/Final Project/Geo_Quest/Scenes/Geo_Quest_LevelOne.unity
     guid: 8fcbbf205b9dfa043a98c17f73b8a9f0
   - enabled: 1
     path: Assets/Pixel_Quest/Scenes/Pixel_Quest_TestLevel.unity
@@ -18,15 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_2.unity
     guid: f9555ef8cf6b50447922872cea2af702
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Geo_Quest_LevelTwo.unity
+    path: Assets/Final Project/Geo_Quest/Scenes/Geo_Quest_LevelTwo.unity
     guid: cf86b2273b23db948bc27ae71522cf7f
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Geo_Quest_LevelYOUWIN.unity
+    path: Assets/Final Project/Geo_Quest/Scenes/Geo_Quest_LevelYOUWIN.unity
     guid: e1291c74b288f1341826c73503de8b4d
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Geo_Quest_LevelThree.unity
+    path: Assets/Final Project/Geo_Quest/Scenes/Geo_Quest_LevelThree.unity
     guid: 877012facf0e56840aa3585078a256c5
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Geo_Quest_LevelFour.unity
+    path: Assets/Final Project/Geo_Quest/Scenes/Geo_Quest_LevelFour.unity
     guid: 927ad9d834fdda944a8bb280f71064e8
   m_configObjects: {}
