@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 1143566713}
   - component: {fileID: 1143566712}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Person
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1007,6 +1007,7 @@ GameObject:
   - component: {fileID: 1309317941}
   - component: {fileID: 1309317940}
   - component: {fileID: 1309317939}
+  - component: {fileID: 1309317942}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1088,6 +1089,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1309317942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309317938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa9c9b052dfc7d4c8251684157cd51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "In October of 202X, The MTA\u2019s intercoms were attacked by hackers. We suspect
+    that the hackers may be a singular person. "
+  - "However, we haven\u2019t gathered enough evidence to prove that yet."
+  - The hackers compromised the comms between the train personnel and the train dispatchers,
+    which resulted in an accident and multiple delays.
+  - Delays are costly. They cost the MTA their time and money. And most importantly,
+    delays affect the riders.
+  - ' NYC runs on trains. '
+  - 'Thousands of people take the Lexington line to get to their distinctions. We
+    cannot have another incident like this again. That is why it is crucial we find
+    the perpetrators. '
+  sprites:
+  - {fileID: 21300000, guid: f49d8aefe41514f62a3e4654166fb255, type: 3}
+  - {fileID: 21300000, guid: f49d8aefe41514f62a3e4654166fb255, type: 3}
+  - {fileID: 21300000, guid: f49d8aefe41514f62a3e4654166fb255, type: 3}
+  - {fileID: 21300000, guid: f49d8aefe41514f62a3e4654166fb255, type: 3}
+  - {fileID: 21300000, guid: f49d8aefe41514f62a3e4654166fb255, type: 3}
+  - {fileID: 21300000, guid: f49d8aefe41514f62a3e4654166fb255, type: 3}
+  - {fileID: 21300000, guid: f49d8aefe41514f62a3e4654166fb255, type: 3}
+  _talkPanel: {fileID: 1717034369}
+  _talkText: {fileID: 453467600}
+  TalkingPerson: {fileID: 1143566712}
 --- !u!1 &1310488466
 GameObject:
   m_ObjectHideFlags: 0

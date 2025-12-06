@@ -11,19 +11,13 @@ public class Dialogue : MonoBehaviour
     public List<Sprite> sprites= new List<Sprite>();
     private bool canSpeak = false;
     private bool isSpeaking = true;
-    private GameObject _talkPanel;
-    private TextMeshProUGUI _talkText;
+    public GameObject _talkPanel;
+    public TextMeshProUGUI _talkText;
     public Image TalkingPerson;
     private int _talkIndex = 0;
-    public Image background;
-    public Sprite Subway;
-    public Sprite TrainInt; 
 
     private void Start()
     {
-        _talkText = GameObject.Find(HW3Structs.GameObjects.talkText).GetComponent<TextMeshProUGUI>();
-
-        _talkPanel = GameObject.Find(HW3Structs.GameObjects.talkPanel);
         _talkText.text = dialogue[_talkIndex];
         TalkingPerson.sprite = sprites[_talkIndex]; 
         //_talkPanel.SetActive(false);
