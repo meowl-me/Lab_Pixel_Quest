@@ -4,23 +4,20 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HW3PlayerDialogue : MonoBehaviour
+public class Dialogue : MonoBehaviour
 {
     public List<string> dialogue = new List<string>();
 
     public List<Sprite> sprites= new List<Sprite>();
     private bool canSpeak = false;
     private bool isSpeaking = true;
-    private GameObject _talkPanel;
-    private TextMeshProUGUI _talkText;
+    public GameObject _talkPanel;
+    public TextMeshProUGUI _talkText;
     public Image TalkingPerson;
     private int _talkIndex = 0;
 
     private void Start()
     {
-        _talkText = GameObject.Find(HW3Structs.GameObjects.talkText).GetComponent<TextMeshProUGUI>();
-
-        _talkPanel = GameObject.Find(HW3Structs.GameObjects.talkPanel);
         _talkText.text = dialogue[_talkIndex];
         TalkingPerson.sprite = sprites[_talkIndex]; 
         //_talkPanel.SetActive(false);
@@ -29,6 +26,11 @@ public class HW3PlayerDialogue : MonoBehaviour
     // Update is called once per frame
     void Update() 
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        { 
+
+        }
+
         if (isSpeaking && Input.GetKeyDown(KeyCode.E))
         {
             if (dialogue.Count - 1 == _talkIndex)
